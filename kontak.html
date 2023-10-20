@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kontak</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kontak Saya</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Informasi Kontak</h2>
+            <p>Email: agilamarulla04@gmail.com</p>
+            <p>Nomor Telepon: 0895-4129-02438</p>
+            <p>Alamat: Kp. Pakulonan Barat Rt03 RW 03, JL. Gang HJ Abdullah</p>
+        </section>
+
+        <section>
+            <h2>Formulir Kontak</h2>
+            <form action="proses_formulir.php" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="3" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Hak Cipta &copy; 2023 Website Saya</p>
+    </footer>
+</body>
+</html>
